@@ -110,7 +110,7 @@ Iterating over each row in the CSV file
 """
 print("Starting iperf tests")
 for index, row in data.iterrows():
-    packets_per_second = row['predictions']
+    packets_per_second = row['Predicted']
 
     """
     Calculating bandwidth from packets/second and packet size
